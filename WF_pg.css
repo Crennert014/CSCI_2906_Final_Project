@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+
+/*
+   
+   Filename: WF_pg.css
+
+*/
+/* Styles Page Elements */
+html {
+   background-color: rgb(10, 6, 0);
+   
+   
+}
+
+#photoGallery {
+   color: black;
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+   
+   color: rgb(255, 255, 255);
+}   
+#gallery {
+   display: flex;
+
+}
