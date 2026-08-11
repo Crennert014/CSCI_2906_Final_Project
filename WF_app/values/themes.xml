@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme matching WF_reunion.css brand colors -->
+    <style name="Theme.WFReunion" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand</item>
+        <item name="colorPrimaryVariant">@color/brand_strong</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/highlight</item>
+        <item name="colorSecondaryVariant">@color/highlight</item>
+        <item name="colorOnSecondary">@color/text</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text</item>
+        <item name="android:colorBackground">@color/bg</item>
+        <item name="colorError">@color/danger</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="materialButtonStyle">@style/WFButton</item>
+
+        <!-- Custom Attributes (Light) -->
+        <item name="colorTextMuted">@color/text_muted</item>
+        <item name="colorBackgroundAccent">@color/bg_accent</item>
+        <item name="colorHighlightBar">@color/highlight</item>
+        <item name="colorBrandLight">@color/brand_light</item>
+        <item name="colorBrandStrong">@color/brand_strong</item>
+        <item name="colorSurfaceSoft">@color/surface_soft</item>
+    </style>
+
+    <!-- Pill-shaped button matching website's nav button style -->
+    <style name="WFButton" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">26dp</item>
+        <item name="backgroundTint">?attr/colorPrimary</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <!-- Dark Mode Scheme: Forest (Default) -->
+    <style name="Theme.WFReunion.Dark.Forest" parent="Theme.WFReunion">
+        <item name="colorPrimary">@color/forest_brand</item>
+        <item name="colorPrimaryVariant">@color/forest_brand_strong</item>
+        <item name="colorOnPrimary">@color/forest_bg</item>
+        <item name="colorSecondary">@color/forest_highlight</item>
+        <item name="colorSurface">@color/forest_surface</item>
+        <item name="android:colorBackground">@color/forest_bg</item>
+        <item name="colorOnSurface">@color/forest_text</item>
+
+        <!-- Custom Attributes -->
+        <item name="colorTextMuted">@color/text_muted</item> <!-- from values-night -->
+        <item name="colorBackgroundAccent">@color/bg_accent</item>
+        <item name="colorHighlightBar">@color/forest_highlight</item>
+        <item name="colorBrandLight">@color/brand_light</item>
+        <item name="colorBrandStrong">@color/forest_brand_strong</item>
+        <item name="colorSurfaceSoft">@color/surface_soft</item>
+    </style>
+
+    <!-- Dark Mode Scheme: Deep Ocean -->
+    <style name="Theme.WFReunion.Dark.Ocean" parent="Theme.WFReunion">
+        <item name="colorPrimary">@color/ocean_brand</item>
+        <item name="colorPrimaryVariant">@color/ocean_brand_strong</item>
+        <item name="colorOnPrimary">@color/ocean_bg</item>
+        <item name="colorSecondary">@color/ocean_highlight</item>
+        <item name="colorSurface">@color/ocean_surface</item>
+        <item name="android:colorBackground">@color/ocean_bg</item>
+        <item name="colorOnSurface">@color/ocean_text</item>
+
+        <!-- Custom Attributes -->
+        <item name="colorTextMuted">#9eb2ab</item> <!-- Adjust manually if needed -->
+        <item name="colorBackgroundAccent">#003355</item>
+        <item name="colorHighlightBar">@color/ocean_highlight</item>
+        <item name="colorBrandLight">#1f4a50</item>
+        <item name="colorBrandStrong">@color/ocean_brand_strong</item>
+        <item name="colorSurfaceSoft">#003355</item>
+    </style>
+
+    <!-- Dark Mode Scheme: Midnight -->
+    <style name="Theme.WFReunion.Dark.Midnight" parent="Theme.WFReunion">
+        <item name="colorPrimary">@color/midnight_brand</item>
+        <item name="colorPrimaryVariant">@color/midnight_brand_strong</item>
+        <item name="colorOnPrimary">@color/midnight_bg</item>
+        <item name="colorSecondary">@color/midnight_highlight</item>
+        <item name="colorSurface">@color/midnight_surface</item>
+        <item name="android:colorBackground">@color/midnight_bg</item>
+        <item name="colorOnSurface">@color/midnight_text</item>
+
+        <!-- Custom Attributes -->
+        <item name="colorTextMuted">#999999</item>
+        <item name="colorBackgroundAccent">#121212</item>
+        <item name="colorHighlightBar">@color/midnight_highlight</item>
+        <item name="colorBrandLight">#333333</item>
+        <item name="colorBrandStrong">@color/midnight_brand_strong</item>
+        <item name="colorSurfaceSoft">#121212</item>
+    </style>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorTextMuted" format="color" />
+    <attr name="colorBackgroundAccent" format="color" />
+    <attr name="colorHighlightBar" format="color" />
+    <attr name="colorBrandLight" format="color" />
+    <attr name="colorBrandStrong" format="color" />
+    <attr name="colorSurfaceSoft" format="color" />
+</resources>

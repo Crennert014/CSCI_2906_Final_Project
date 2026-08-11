@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WF Reunion</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_activities">Activities</string>
+    <string name="nav_photos">Photos</string>
+    <string name="nav_chat">Chat</string>
+    <string name="nav_contact">Contact</string>
+    <string name="nav_logout">Logout</string>
+
+    <!-- Credentials -->
+    <string name="login_username">family</string>
+    <string name="login_password">reunion2026</string>
+
+    <!-- General -->
+    <string name="family_name_full">Warburton Family Reunion</string>
+    <string name="tbd">TBD</string>
+    <string name="na">N/A</string>
+
+    <!-- Login -->
+    <string name="login_header">WF Reunion Login</string>
+    <string name="login_sub_header">Please sign in to access the app.</string>
+    <string name="label_username">Username</string>
+    <string name="label_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="hint_username">Enter username</string>
+    <string name="hint_password">Enter password</string>
+    <string name="error_empty_fields">Please enter your username and password.</string>
+    <string name="error_invalid_credentials">Invalid username or password.</string>
+    <string name="error_network">Cannot connect to server. Check your network.</string>
+
+    <!-- Home -->
+    <string name="home_welcome">Welcome Warburton Family Reunion!</string>
+    <string name="home_intro">We are thrilled to have all family members join us every year to create new memories and continue in the tradition that our ancestors
+            started. This reunion is a special occasion for our family to reconnect, share stories, and enjoy each other company.
+            We have planned a variety of activities and events to ensure that everyone has a fantastic time. From fun games for the kids to
+            stay entertained, activities for adults, and there is always something for everyone to enjoy. We encourage all family members to participate
+            and make the most of this reunion.<br /> <br/>
+            Warburton Coat of Arms meanings - Our family crest symbols with 3 Ravens which is a
+            A symbol of knowledge. This is also a symbol divine providence, also, a durable
+            resistance as well as the nature the bringer of death.</string>
+    <string name="home_countdown_title">Countdown to next Reunion</string>
+    <string name="home_location">Where: Minersville Reservoir</string>
+    <string name="home_date">June 10, 2027 — 12:00 PM</string>
+    <string name="timer_days_label">%1$s\nDays</string>
+    <string name="timer_hours_label">%1$s\nHours</string>
+    <string name="timer_minutes_label">%1$s\nMinutes</string>
+    <string name="timer_seconds_label">%1$s\nSeconds</string>
+    <string name="reunion_started">Reunion\nStarted!</string>
+    <string name="home_contact_info_title">Contact Information</string>
+    <string name="home_contact_info_body">If you have any questions or need further information, please contact your closest auntie</string>
+
+    <!-- Activities -->
+    <string name="activities_header">Whats Planned for This Coming Campout</string>
+    <string name="activities_intro">We have a variety of activities and assignments planned for the Warburton Family Reunion.
+        Check the details below to see how you can participate!</string>
+    <string name="activity_auction_title">Auction Fundraiser</string>
+    <string name="activity_auction_coord">Auctioneer this year is Heidi Hansen</string>
+    <string name="activity_auction_desc">As always, we will be holding an auction to raise funds for the reunion. Please consider
+        bringing items to donate for the auction.</string>
+    <string name="activity_games_title">Games and Activities</string>
+    <string name="activity_games_coord">Games and Activities Coordinator: Randy Dussler</string>
+    <string name="activity_games_desc">We have planned several games and activities to keep everyone entertained during the reunion.</string>
+    <string name="food_assignments_title">Food Assignments</string>
+    <string name="food_assignments_intro">It is encouraged to create a delicious and diverse menu. We have assigned meal times and
+        responsibilities to different families.</string>
+    <string name="meal_schedule_title">Meal Assignment Schedule</string>
+    <string name="meal_label">Meal</string>
+    <string name="day_thursday">Thursday</string>
+    <string name="day_friday">Friday</string>
+    <string name="day_saturday">Saturday</string>
+    <string name="day_sunday">Sunday</string>
+    <string name="meal_breakfast">Breakfast</string>
+    <string name="meal_lunch">Lunch</string>
+    <string name="meal_dinner">Dinner</string>
+    <string name="meal_sorenson">Sorenson Family\neggs, bacon, sulders</string>
+    <string name="meal_dussler">Dussler Family\nPancakes, sausages, and fruit</string>
+    <string name="meal_continental">Individual Family\nContinental breakfast — pastries, fruit, beverages</string>
+
+    <!-- Photo Gallery -->
+    <string name="photos_header">Family Photo Gallery</string>
+    <string name="photos_intro">Share your reunion memories by uploading photos below.</string>
+    <string name="btn_upload_photo">Upload Photo</string>
+    <string name="no_photos_yet">No photos yet. Tap the button above to add your first photo!</string>
+    <string name="toast_upload_success">Photo uploaded!</string>
+    <string name="toast_upload_fail">Upload failed.</string>
+    <string name="toast_load_fail">Could not load photos.</string>
+
+    <!-- Contact -->
+    <string name="contact_header">Contact Us</string>
+    <string name="contact_intro">If you have any questions, suggestions, or need further information about the Warburton Family
+        Reunion, please use the form below to reach out.</string>
+    <string name="contact_success">Your message has been sent successfully!</string>
+    <string name="label_name">Name *</string>
+    <string name="label_email">Your Email *</string>
+    <string name="label_subject">Subject</string>
+    <string name="label_message">Message *</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_email_address">Email Address</string>
+    <string name="hint_message">Concerns, Comments, Questions, Ideas</string>
+    <string name="btn_submit">Submit</string>
+    <string name="error_name_required">Name is required</string>
+    <string name="error_email_required">Email is required</string>
+    <string name="error_email_invalid">Enter a valid email address</string>
+    <string name="error_message_required">Message is required</string>
+    <string name="toast_contact_success">Message sent successfully!</string>
+    <string name="toast_contact_fail">Failed to send message. Try again.</string>
+
+    <!-- Chat -->
+    <string name="chat_group_title">Family Group Chat</string>
+    <string name="chat_group_desc">Chat with everyone</string>
+    <string name="chat_individual_title">Individual Chats</string>
+    <string name="chat_hint_type_message">Type a message…</string>
+    <string name="chat_btn_send_desc">Send</string>
+    <string name="msg_failed_send_chat">Failed to send message.</string>
+
+    <!-- Sign Up -->
+    <string name="signup_header">Create Account</string>
+    <string name="signup_sub_header">Join the family with your own unique account.</string>
+    <string name="label_full_name">Full Name</string>
+    <string name="hint_full_name_edit">Enter your full name</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="login_link">Already have an account? Log In</string>
+    <string name="signup_link">Don\'t have an account? Sign Up</string>
+    <string name="error_username_exists">Username already exists.</string>
+    <string name="toast_signup_success">Account created successfully!</string>
+
+    <!-- Theme -->
+    <string name="acc_toggle_theme">Toggle light/dark mode</string>
+    <string name="dialog_theme_title">Choose Dark Scheme</string>
+
+</resources>

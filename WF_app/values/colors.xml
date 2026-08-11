@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light mode — exact values from WF_reunion.css :root -->
+    <color name="bg">#f5f2ea</color>
+    <color name="bg_accent">#e5efe8</color>
+    <color name="surface">#ffffff</color>
+    <color name="surface_soft">#f8fbf9</color>
+    <color name="text">#1f2a2d</color>
+    <color name="text_muted">#566064</color>
+    <color name="brand">#116466</color>
+    <color name="brand_strong">#0b4f51</color>
+    <color name="brand_light">#c8e5e5</color>
+    <color name="highlight">#f2b279</color>
+    <color name="line">#d7e2db</color>
+    <color name="danger">#b4232f</color>
+    <!-- Required by Material theme -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Scheme: Forest Night (Existing values from values-night) -->
+    <color name="forest_brand">#41a7ac</color>
+    <color name="forest_brand_strong">#73c8c1</color>
+    <color name="forest_bg">#0e171b</color>
+    <color name="forest_surface">#17272d</color>
+    <color name="forest_text">#e4efeb</color>
+    <color name="forest_highlight">#f8bf7d</color>
+
+    <!-- Scheme: Deep Ocean -->
+    <color name="ocean_brand">#7baaf7</color>
+    <color name="ocean_brand_strong">#a8c7fa</color>
+    <color name="ocean_bg">#001d35</color>
+    <color name="ocean_surface">#003355</color>
+    <color name="ocean_text">#dfe3eb</color>
+    <color name="ocean_highlight">#5d99c6</color>
+
+    <!-- Scheme: Midnight Charcoal -->
+    <color name="midnight_brand">#cfcfcf</color>
+    <color name="midnight_brand_strong">#fcfcfc</color>
+    <color name="midnight_bg">#000000</color>
+    <color name="midnight_surface">#121212</color>
+    <color name="midnight_text">#e1e1e1</color>
+    <color name="midnight_highlight">#424242</color>
+</resources>
