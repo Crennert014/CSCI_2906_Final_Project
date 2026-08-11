@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark mode — exact values from WF_reunion.css html[data-theme="dark"] -->
+    <color name="bg">#0e171b</color>
+    <color name="bg_accent">#12242a</color>
+    <color name="surface">#17272d</color>
+    <color name="surface_soft">#1e333a</color>
+    <color name="text">#e4efeb</color>
+    <color name="text_muted">#9eb2ab</color>
+    <color name="brand">#41a7ac</color>
+    <color name="brand_strong">#73c8c1</color>
+    <color name="brand_light">#1f4a50</color>
+    <color name="highlight">#f8bf7d</color>
+    <color name="line">#2f464f</color>
+    <color name="danger">#ff7f8b</color>
+</resources>
