@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.warburton.wfreunion.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/activitiesFragment"
+        android:name="com.warburton.wfreunion.ActivitiesFragment"
+        android:label="Activities"
+        tools:layout="@layout/fragment_activities" />
+
+    <fragment
+        android:id="@+id/photoGalleryFragment"
+        android:name="com.warburton.wfreunion.PhotoGalleryFragment"
+        android:label="Photos"
+        tools:layout="@layout/fragment_photo_gallery" />
+
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.warburton.wfreunion.ContactFragment"
+        android:label="Contact Us"
+        tools:layout="@layout/fragment_contact" />
+
+    <fragment
+        android:id="@+id/chatListFragment"
+        android:name="com.warburton.wfreunion.ChatListFragment"
+        android:label="Chat Room"
+        tools:layout="@layout/fragment_chat_list">
+        <action
+            android:id="@+id/action_chatList_to_chatRoom"
+            app:destination="@id/chatRoomFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/chatRoomFragment"
+        android:name="com.warburton.wfreunion.ChatRoomFragment"
+        android:label="{chatTitle}"
+        tools:layout="@layout/fragment_chat_room">
+        <argument
+            android:name="chatTitle"
+            app:argType="string" />
+        <argument
+            android:name="receiverId"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+
+</navigation>
